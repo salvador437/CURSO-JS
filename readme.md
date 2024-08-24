@@ -8,6 +8,8 @@ el mensage de "Por favor introduzca sólo números de 8 digitos".
 
 Para la conversión de temperatura de grados celsius a grados
 farenheit debe introducir valor numerico de 3 digitos.
+Utilizando el algoritmo
 
 
 ## Página SPA cálculo indice de masa corporal IMC.
+Para el cáñculo del indice de masa corporal
