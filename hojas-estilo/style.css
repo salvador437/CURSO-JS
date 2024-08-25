@@ -1,12 +1,12 @@
 /* variables para estilos de color */
 :root{
-    --body-background:#54bb0f;
+    --body-background:rgb(84, 187, 15);
     --footer-background: #333;
     --div-background: #1f5c3a;
     --btn-background:#175131;
     --nav-background: #0d3f17;
     --menu-respon-backgraund: #252424;
-    --menu-icono-hambur-color:#07fc27;
+    --menu-icono-hambur-color:rgb(7, 252, 39);
     --text-color: #5ac47d;
     --text-color-logo: #e8f803;
     --text-navbar: #3ff172;
