@@ -77,6 +77,11 @@ body {
 
 table{
     margin-left: 1em;
+    margin-bottom: 0.8em;
+}
+
+h5{
+    margin-left: 0.8em;
 }
 
 .footer {
