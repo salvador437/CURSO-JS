@@ -49,8 +49,7 @@ function calcularLetraDNI() {
   });
 
   if (dniNumero.length !== 8 || isNaN(dniNumero)) {
-    //  
-    window.open("./notificacionError.html",target="_self");
+      window.open("./notificacionError.html", target="_self");
   }
 
   // Seleccionar la letra mediate el algorritmo aplicado.

@@ -71,6 +71,14 @@ body {
     background-color: var(--btn-background);
 }
 
+#resultado-imc{
+   margin-left: 2em; 
+}
+
+table{
+    margin-left: 1em;
+}
+
 .footer {
     text-align: center;
     padding: 10px 0;
