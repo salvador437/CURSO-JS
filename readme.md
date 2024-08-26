@@ -8,12 +8,14 @@ el mensage de "Por favor introduzca sólo números de 8 digitos".
 
 Para la conversión de temperatura de grados celsius a grados
 farenheit debe introducir valor numerico de 3 digitos.
-Utilizando el algoritmo
+Utilizando el algoritmo:
+    gradosFarhengeis = (9 / 5) * gradosConversion + 32;
 
 
 ## Página SPA cálculo indice de masa corporal IMC.
 Para el cálculo del indice de masa corporal IMC empleamos el
 sguiente algorritmo:
-  imc = peso kg./altura x altura.
-debe introducir el peso en kgrs. y la altura en cmts.
+   imc = peso kg./altura x altura.
+debe introducir el peso en kgrs. y la altura en cmts. 
+
 
