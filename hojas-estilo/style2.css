@@ -75,9 +75,10 @@ body {
    margin-left: 2em; 
 }
 
-table{
+table, th, td, tr{
     margin-left: 1em;
     margin-bottom: 0.8em;
+    text-align: center;
 }
 
 h5{
