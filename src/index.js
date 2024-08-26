@@ -64,10 +64,10 @@ function calcularLetraDNI() {
 //Cálculo de la conversión de grados C => F.
 function calcularTemperaturaCF() {
   const gradosConversion = document.querySelector(".input-conversor").value;
-  if (gradosConversion.length >= 3 || isNaN(gradosConversion) || gradosConversion.length < 1)
+  if (gradosConversion.length > 4 || isNaN(gradosConversion) || gradosConversion.length < 1)
   {
     document.querySelector("#resultado-temperatura").textContent =
-    "Por favor, introduce  valores númericos de  3 o 4 cifras";
+    "Por favor, introduce  valores númericos de máximo  4 cifras";
     return;
   }
 
