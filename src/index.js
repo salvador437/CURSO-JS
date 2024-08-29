@@ -66,9 +66,10 @@ function calcularTemperaturaCF() {
   const gradosConversion = document.querySelector(".input-conversor").value;
   if (gradosConversion.length > 4 || isNaN(gradosConversion) || gradosConversion.length < 1)
   {
-    document.querySelector("#resultado-temperatura").textContent =
-    "Por favor, introduce  valores númericos de máximo  4 cifras";
-    return;
+    // document.querySelector("#resultado-temperatura").textContent =
+    // "Por favor, introduce  valores númericos de máximo  4 cifras";
+    // return;
+     window.open("./notificacionError.html", (target = "_self"));
   }
 
   let gradosFarhengeis = (9 / 5) * gradosConversion + 32;
