@@ -69,7 +69,7 @@ function calcularTemperaturaCF() {
     // document.querySelector("#resultado-temperatura").textContent =
     // "Por favor, introduce  valores númericos de máximo  4 cifras";
     // return;
-     window.open("./notificacionError.html", (target = "_self"));
+      window.open("./notificacionError.html", (target = "_self"));
   }
 
   let gradosFarhengeis = (9 / 5) * gradosConversion + 32;
