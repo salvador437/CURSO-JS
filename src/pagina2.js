@@ -34,6 +34,15 @@ function calcularIMC() {
   // valores de los inputs peso y altura.
   const valorPeso = document.querySelector(".input-imcPeso").value;
   let valorAltura = document.querySelector(".input-imcAltura").value;
+
+  if (valorPeso.length < 1 || isNaN(valorPeso)) {
+    window.open("./notificacionError.html", target="_self");
+}
+
+if (valorAltura.length < 1 || isNaN(valorAltura)) {
+  window.open("./notificacionError.html", target="_self");
+}
+
   valorAltura = valorAltura / 100;
   let valorResultado = valorPeso / valorAltura ** 2;
   // cambiando el punto por la coma en los decimales del resultado
