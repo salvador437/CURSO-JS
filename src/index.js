@@ -1,4 +1,3 @@
-
 // asignando en constantes los  elementos HTML implicados.
 const inputdni = document.querySelector(".input-dniNumero");
 const inputConversor = document.querySelector(".input-conversor");
@@ -49,7 +48,7 @@ function calcularLetraDNI() {
   });
 
   if (dniNumero.length !== 8 || isNaN(dniNumero)) {
-      window.open("./notificacionError.html", target="_self");
+    window.open("./notificacionError.html", (target = "_self"));
   }
 
   // Seleccionar la letra mediate el algorritmo aplicado.
@@ -64,12 +63,15 @@ function calcularLetraDNI() {
 //Cálculo de la conversión de grados C => F.
 function calcularTemperaturaCF() {
   const gradosConversion = document.querySelector(".input-conversor").value;
-  if (gradosConversion.length > 5 || isNaN(gradosConversion) || gradosConversion.length < 1)
-  {
+  if (
+    gradosConversion.length > 5 ||
+    isNaN(gradosConversion) ||
+    gradosConversion.length < 1
+  ) {
     // document.querySelector("#resultado-temperatura").textContent =
     // "Por favor, introduce  valores númericos de máximo  4 cifras";
     // return;
-      window.open("./notificacionError.html", (target = "_self"));
+    window.open("./notificacionError.html", (target = "_self"));
   }
 
   let gradosFarhengeis = (9 / 5) * gradosConversion + 32;
@@ -79,7 +81,6 @@ function calcularTemperaturaCF() {
   });
 
   document.querySelector(
-    "#resultado-temperatura").textContent = `${gradosConversion} grados C son ${gradosFarhengeis} F `;
+    "#resultado-temperatura"
+  ).textContent = `${gradosConversion} grados C son ${gradosFarhengeis} F `;
 }
-
-
