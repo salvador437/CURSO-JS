@@ -36,12 +36,12 @@ function calcularIMC() {
   let valorAltura = document.querySelector(".input-imcAltura").value;
 
   if (valorPeso.length < 1 || isNaN(valorPeso)) {
-    window.open("./notificacionErrorIMC.html", target="_self");
-}
+    window.open("./notificacionErrorIMC.html", (target = "_self"));
+  }
 
-if (valorAltura.length < 1 || isNaN(valorAltura)) {
-  window.open("./notificacionErrorIMC.html", target="_self");
-}
+  if (valorAltura.length < 1 || isNaN(valorAltura)) {
+    window.open("./notificacionErrorIMC.html", (target = "_self"));
+  }
 
   valorAltura = valorAltura / 100;
   let valorResultado = valorPeso / valorAltura ** 2;

@@ -1,4 +1,4 @@
-## Página SPA cálculo letra DNI conversor temperatura C/F
+## 📌 Página SPA cálculo letra DNI conversor temperatura C/F
 
 En esta página podemos calcular la letra correspondiente a
 un DNI en España introduciendo 8 digitos numéricos.
@@ -12,7 +12,7 @@ Utilizando el algoritmo:
     gradosFarhengeis = (9 / 5) * gradosConversion + 32;
 
 
-## Página SPA cálculo indice de masa corporal IMC.
+## 📌 Página SPA cálculo indice de masa corporal IMC.
 Para el cálculo del indice de masa corporal IMC empleamos el
 sguiente algorritmo:
    imc = peso kg./altura x altura.
