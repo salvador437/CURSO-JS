@@ -240,6 +240,7 @@ h5{
 
 .navbar .logo:hover {
     font-size: 2em;
+    cursor: pointer;
     font-weight: bold;
     transform: rotateY(360deg);
 }

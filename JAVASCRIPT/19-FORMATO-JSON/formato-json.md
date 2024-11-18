@@ -33,7 +33,7 @@ Como hemos mencionado, si analizamos bien la sintaxis de un JSON, nos habremos d
 
 ![alt text](./imagenes-formato-json/image-2.png)
 
-En Javascript tenemos una serie de métodos que nos facilitan la tarea de pasar de OBSECT de Javascript a JSON y viceversa, pudiendo trabajar con contenido de tipo STRING (que contenga un JSON) y objetos Javascript según interese.
+En Javascript tenemos una serie de métodos que nos facilitan la tarea de pasar de OBJECT de Javascript a JSON y viceversa, pudiendo trabajar con contenido de tipo STRING (que contenga un JSON) y objetos Javascript según interese.
 
 Dichos métodos son los siguientes:
 
