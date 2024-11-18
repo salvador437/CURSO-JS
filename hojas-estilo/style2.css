@@ -75,6 +75,60 @@ body {
     margin-left: 2em; 
 }
 
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(5, 3, 88);
+}
+
+  /* Estilos del contenido del modal */
+.modal-content {
+    background-color: #1738f3;
+    color:#ffffff ;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #e8f803;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.623);
+    border-radius: 0.8em;
+}
+
+/* Botón de cerrar */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 table, th, td, tr{
     margin-left: 1em;
     margin-bottom: 0.8em;
@@ -147,7 +201,7 @@ h5{
     cursor: pointer;
 }
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 600px) {
     .navbar .menu a {
         display: block;
     }
