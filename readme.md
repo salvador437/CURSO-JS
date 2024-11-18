@@ -15,7 +15,7 @@ Utilizando el algoritmo:
 ## 📌 Página SPA cálculo indice de masa corporal IMC.
 Para el cálculo del indice de masa corporal IMC empleamos el
 sguiente algorritmo:
-   imc = peso kg./altura x altura.
+   imc = peso kg./altura<sup>2</sup>
 debe introducir el peso en kgrs. y la altura en cmts. 
 
 
