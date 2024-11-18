@@ -63,14 +63,7 @@ function calcularLetraDNI() {
 //Cálculo de la conversión de grados C => F.
 function calcularTemperaturaCF() {
   const gradosConversion = document.querySelector(".input-conversor").value;
-  if (
-    gradosConversion.length > 5 ||
-    isNaN(gradosConversion) ||
-    gradosConversion.length < 1
-  ) {
-    // document.querySelector("#resultado-temperatura").textContent =
-    // "Por favor, introduce  valores númericos de máximo  4 cifras";
-    // return;
+  if (gradosConversion.length > 5 ||isNaN(gradosConversion) ||gradosConversion.length < 1) {
     window.open("./notificacionError.html", (target = "_self"));
   }
 
