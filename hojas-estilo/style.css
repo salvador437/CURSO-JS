@@ -29,6 +29,8 @@ a: "input-dniNumero" , ".input-conversor"
 .input-conversor,
 .btn-calcular,
 .btn-cal-temp {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 1em;
   font-size: 1.1em;
   border-radius: 7px;
@@ -43,6 +45,7 @@ a: "input-dniNumero" , ".input-conversor"
 /* damos reglas a la clase ".clase-dni" y ".conversor" */
 .clase-dni,
 .conversor {
+  display: flexbox;
   font-size: 1.2em;
   justify-content: center;
   align-items: center;
@@ -70,6 +73,7 @@ a: "input-dniNumero" , ".input-conversor"
   left: 0;
   bottom: 0;
   width: 100%;
+  user-select: none;
   background-color: var(--footer-background);
   color: var(--text-color-footer);
 }
