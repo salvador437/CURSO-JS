@@ -36,7 +36,6 @@ a: "input-dniNumero" , ".input-conversor"
   border-radius: 7px;
   text-align: center;
   cursor: pointer;
-  margin-left: 15px;
   user-select: none;
   color: var(--text-color);
   background-color: var(--div-background);
@@ -45,7 +44,8 @@ a: "input-dniNumero" , ".input-conversor"
 /* damos reglas a la clase ".clase-dni" y ".conversor" */
 .clase-dni,
 .conversor {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
   font-size: 1.2em;
   justify-content: center;
   align-items: center;

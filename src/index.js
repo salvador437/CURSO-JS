@@ -47,6 +47,7 @@ function calcularLetraDNI() {
     }
   });
 
+
   if (dniNumero.length !== 8 || isNaN(dniNumero)) {
     window.open("./notificacionError.html", (target = "_self"));
   }
@@ -67,12 +68,14 @@ function calcularTemperaturaCF() {
     window.open("./notificacionError.html", (target = "_self"));
   }
 
+  
   let gradosFarhengeis = (9 / 5) * gradosConversion + 32;
   gradosFarhengeis = gradosFarhengeis.toLocaleString("es-ES", {
     minimumFractionDigits: 1,
     maximumFractionDigits: 1,
   });
 
+  
   document.querySelector(
     "#resultado-temperatura"
   ).textContent = `${gradosConversion} grados C son ${gradosFarhengeis} F `;
